@@ -1,7 +1,5 @@
 ![LogoQRCode.png](https://github.com/XLsn0w/WeChatMiniProgramLogoQRCode/blob/master/LogoQRCode.png?raw=true)
 
-#WeChat Mini Program Logo QRCode 微信小程序 绘制二维码 添加中间头像Logo
-##基于开源库qrcode.js
 ```
 var drawImg = function (src, width,ctx) {
     var imgSize = width / 5;
