@@ -771,7 +771,9 @@ var QR = (function () {
       }
       return out;
     },
-    draw: function (str, canvas, cavW, cavH, ecc,src) {
+
+    ///绘制二维码
+    draw: function (str, canvas, cavW, cavH, ecc, src) {
       ecclevel = ecc || ecclevel;
       canvas = canvas || _canvas;
       if (!canvas) {
